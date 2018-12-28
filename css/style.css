@@ -1,0 +1,158 @@
+html,body{
+    width:100%;
+    height:100%;
+   
+}
+header{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 45px;
+    opacity: 1;
+    background-color:#48c076;
+    
+}
+nav ul{
+    display: flex;
+    float:right;
+    margin-right: 20px;
+    opacity: 1;
+      }
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s all;
+         }
+nav ul li:hover{
+    background-color:#AED6F1 ;
+    height:70px;
+               }
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    padding: 30px;
+    text-transform: capitalize;
+    opacity: 1;
+           }
+
+
+
+img{
+    margin-top:7px;
+    margin-left:0px;
+    width: 90px;
+    height: 40px;
+   }
+.parallax {
+    /* The image used */
+    background-image: url("/home/user/Documents/vscode-assign/assignment2/img/15219_SJCE_New.jpg");
+  
+    /* Set a specific height */
+    min-height: 750px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        }
+          
+img {
+     margin-right:10px;
+     width: 66px;
+    }
+ .textclass{
+    height:600px;
+    background-color:#575658;
+    font-size:36px;
+}
+.textclass p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+     padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%; 
+    text-align: justify;
+}
+            
+.flex-container {
+            display: flex;
+            background-color: rgb(57, 58, 59);
+            justify-content: center;
+          }
+          
+.flex-container > div {
+            background-color: #e6dbdb;
+            margin: 10px;
+            padding: 10px;
+            font-size: 30px;
+            height:110px;
+            width: 100px;
+            
+          }
+.flex-container img {
+            width: 100px;
+            height:100px;        
+                    }
+footer{
+        background-color:#48c076;
+        color:green;
+        height: 500px;
+        width: 100%;
+        position: sticky;
+    }
+.fa {
+     padding: 20px;
+     font-size: 30px;
+     width: 15px;
+     height: 15px;
+     text-align: center;
+     text-decoration: none;
+     margin: 5px 2px;
+     float: right;
+     color: #4ea7bd;
+    }
+                      
+.fa:hover {
+            opacity: 0.7;
+          }
+                      
+.fa-facebook {
+              background: #3B5998;
+              color: rgb(255, 255, 255);
+             }
+                      
+.fa-twitter {
+             background: #55ACEE;
+             color: rgb(190, 35, 35);
+            }
+                      
+.fa-google {
+             background: #dd4b39;
+             color: white;
+           }
+                      
+.fa-linkedin {
+               background: #007bb5;
+               color: white;
+             }
+                      
+.fa-youtube {
+              background: #bb0000;
+              color: white;
+            }
+                      
+.fa-instagram {
+                background: #125688;
+                color: white;
+              }
+@media screen and (max-width: 142px){
+    nav ul{
+    float: left;
+    flex-direction: row;
+
+    opacity: 1;
+    }
+}
