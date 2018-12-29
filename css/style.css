@@ -99,9 +99,12 @@ img {
 footer{
         background-color:#48c076;
         color:green;
-        height: 500px;
+        height: 100px;
         width: 100%;
-        position: sticky;
+        /* position: sticky; */
+        position: relative;
+
+
     }
 .fa {
      padding: 20px;
@@ -152,7 +155,6 @@ footer{
     nav ul{
     float: left;
     flex-direction: row;
-
     opacity: 1;
     }
 }
